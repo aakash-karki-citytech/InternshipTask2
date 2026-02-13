@@ -2,25 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-    android:id="@+id/home"
+    android:id="@+id/nav_home"
     android:icon="@drawable/home"
     android:title="Home"
     android:iconTint="@color/gray"/>
 
     <item
-    android:id="@+id/reels"
-    android:icon="@drawable/reels"
-    android:title="Reels"
+    android:id="@+id/nav_guides"
+    android:icon="@drawable/guide"
+    android:title="Guides"
     android:iconTint="@color/gray"/>
 
     <item
-        android:id="@+id/setting"
+        android:id="@+id/nav_setting"
         android:icon="@drawable/setting"
         android:title="Setting"
         android:iconTint="@color/gray"/>
 
     <item
-        android:id="@+id/profile"
+        android:id="@+id/nav_profile"
         android:icon="@drawable/profile"
         android:title="Profile"
         android:iconTint="@color/gray"/>

@@ -33,6 +33,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -44,4 +47,14 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //GSON
+    implementation(libs.gson)
+    // Glide
+    implementation(libs.glide)
+    //Recycler View
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.recyclerview.selection)
+
+
 }

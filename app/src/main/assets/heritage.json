@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pashupatinath Temple",
+    "description": "Sacred Hindu temple dedicated to Lord Shiva located in Kathmandu.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Pashupatinath_Temple-2020.jpg",
+    "location": "Gaushala, Kathmandu"
+  },
+  {
+    "name": "Swyambhunath Stupa",
+    "description": "One of the largest stupas in the world and a major center of Tibetan Buddhism.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Swayambhunath_stupa_along_with_Harati_Devi%27s_temple_and_smalles_stupas_and_pagodas_in_the_foreground.jpg/960px-Swayambhunath_stupa_along_with_Harati_Devi%27s_temple_and_smalles_stupas_and_pagodas_in_the_foreground.jpg",
+    "location": "Kathmandu"
+  },
+  {
+    "name": "Boudhanath Stupa",
+    "description": "Ancient religious complex also known as the Monkey Temple, situated on a hilltop in Kathmandu.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Boudhanath_stupa_%2C_Kathmandu%2C_Nepal.jpg/3840px-Boudhanath_stupa_%2C_Kathmandu%2C_Nepal.jpg",
+    "location": "Kathmandu"
+  }
+]
