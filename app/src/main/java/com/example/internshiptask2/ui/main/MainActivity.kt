@@ -10,8 +10,8 @@ import androidx.fragment.app.Fragment
 import com.example.internshiptask2.R
 import com.example.internshiptask2.ui.guides.GuidesFragment
 import com.example.internshiptask2.ui.profile.ProfileFragment
-import com.example.internshiptask2.ui.setting.SettingFragment
 import com.example.internshiptask2.ui.home.HomeFragment
+import com.example.internshiptask2.ui.settings.SettingFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState == null) {
             openFragment(HomeFragment(), "Home")
         }
-        // Bottom navigation listener
+
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {

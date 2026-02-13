@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -38,6 +39,8 @@ android {
     }
 }
 
+
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -55,6 +58,18 @@ dependencies {
     //Recycler View
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.recyclerview.selection)
+    //Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 
 
+    //ksp
+    ksp(libs.androidx.room.compiler.v250)
+
+    // Room
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+    //Coroutines
+    implementation(libs.androidx.room.ktx.v260)
 }
